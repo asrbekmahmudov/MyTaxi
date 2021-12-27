@@ -23,7 +23,7 @@ class TripDetail: UIViewController, GMSMapViewDelegate {
     }
     
     func setBackButton() {
-        let backButton = UIButton(frame: CGRect(x: 20, y: 50, width: 50, height: 50))
+        let backButton = UIButton(frame: CGRect(x: 20, y: 50, width: 40, height: 40))
         backButton.layer.shadowRadius = 5
         backButton.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
         backButton.layer.shadowOpacity = 0.1

@@ -120,6 +120,7 @@ class MainScreen: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
     
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
         self.pulsator.stop()
+        isMenuOpened = false
     }
     
     func mapView(_ mapView: GMSMapView, willMove gesture: Bool) {
