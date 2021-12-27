@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9BA9B3B4E0577B36FA8CED /* Pods_MyTaxi_MyTaxiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369AA36205AF3E7E33EEAA3F /* Pods_MyTaxi_MyTaxiUITests.framework */; };
+		4A0B0FA22779AD8E00460380 /* TripDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B0FA02779AD8E00460380 /* TripDetail.swift */; };
+		4A0B0FA32779AD8E00460380 /* TripDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B0FA12779AD8E00460380 /* TripDetail.xib */; };
+		4A1A06B1276F738100AA4D5F /* Utills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A06B0276F738100AA4D5F /* Utills.swift */; };
+		4A1A6FDC277A0182003DDFD6 /* TripDetailBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A6FDA277A0182003DDFD6 /* TripDetailBottomSheet.swift */; };
+		4A1A6FDD277A0183003DDFD6 /* TripDetailBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A6FDB277A0182003DDFD6 /* TripDetailBottomSheet.xib */; };
+		4A2B62922778944B00C24CF0 /* JHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2B62912778944A00C24CF0 /* JHNavigationController.swift */; };
+		4A5541D2276E0F800084D8F9 /* pulsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5541D0276E0F800084D8F9 /* pulsViewController.swift */; };
+		4A5541D3276E0F800084D8F9 /* pulsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5541D1276E0F800084D8F9 /* pulsViewController.xib */; };
+		4A55454E2774C1C10081BC4F /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55454D2774C1C10081BC4F /* MenuScreen.swift */; };
+		4A611E0B2778CF4600EBCC20 /* TripHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A611E092778CF4600EBCC20 /* TripHistory.swift */; };
+		4A611E0C2778CF4600EBCC20 /* TripHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A611E0A2778CF4600EBCC20 /* TripHistory.xib */; };
+		4A611E0F2778DB3B00EBCC20 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A611E0E2778DB3B00EBCC20 /* Data.swift */; };
+		4A6B3071276C88480072F8C5 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B306F276C88480072F8C5 /* MainScreen.swift */; };
+		4A6B3072276C88480072F8C5 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B3070276C88480072F8C5 /* MainScreen.xib */; };
+		4AAD4A4A277987CB0086A58A /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD4A48277987CB0086A58A /* DataTableViewCell.swift */; };
+		4AAD4A4B277987CB0086A58A /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAD4A49277987CB0086A58A /* DataTableViewCell.xib */; };
 		4ADB8022276C4B2F003AD335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8021276C4B2F003AD335 /* AppDelegate.swift */; };
 		4ADB8024276C4B2F003AD335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8023276C4B2F003AD335 /* SceneDelegate.swift */; };
-		4ADB8026276C4B2F003AD335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8025276C4B2F003AD335 /* ViewController.swift */; };
 		4ADB8029276C4B2F003AD335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADB8027276C4B2F003AD335 /* Main.storyboard */; };
 		4ADB802C276C4B2F003AD335 /* MyTaxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB802A276C4B2F003AD335 /* MyTaxi.xcdatamodeld */; };
 		4ADB802E276C4B35003AD335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADB802D276C4B35003AD335 /* Assets.xcassets */; };
@@ -17,6 +33,12 @@
 		4ADB803C276C4B36003AD335 /* MyTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB803B276C4B36003AD335 /* MyTaxiTests.swift */; };
 		4ADB8046276C4B36003AD335 /* MyTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8045276C4B36003AD335 /* MyTaxiUITests.swift */; };
 		4ADB8048276C4B36003AD335 /* MyTaxiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8047276C4B36003AD335 /* MyTaxiUITestsLaunchTests.swift */; };
+		4ADB8057276C518A003AD335 /* TaxiAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8055276C518A003AD335 /* TaxiAppViewController.swift */; };
+		4ADB8058276C518A003AD335 /* TaxiAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADB8056276C518A003AD335 /* TaxiAppViewController.xib */; };
+		4ADB805B276C6B8A003AD335 /* GoogleMapsViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB8059276C6B8A003AD335 /* GoogleMapsViewer.swift */; };
+		4ADB805C276C6B8A003AD335 /* GoogleMapsViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADB805A276C6B8A003AD335 /* GoogleMapsViewer.xib */; };
+		4FBB58AD3C9F47FFCDFD01F0 /* Pods_MyTaxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8833B5D20BC1696A47AF1E /* Pods_MyTaxi.framework */; };
+		6FCF3B7813F2709680A22F17 /* Pods_MyTaxiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41500EB5D4835C361BBAE996 /* Pods_MyTaxiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +59,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8833B5D20BC1696A47AF1E /* Pods_MyTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369AA36205AF3E7E33EEAA3F /* Pods_MyTaxi_MyTaxiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTaxi_MyTaxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41500EB5D4835C361BBAE996 /* Pods_MyTaxiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTaxiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B0FA02779AD8E00460380 /* TripDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetail.swift; sourceTree = "<group>"; };
+		4A0B0FA12779AD8E00460380 /* TripDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetail.xib; sourceTree = "<group>"; };
+		4A1A06B0276F738100AA4D5F /* Utills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utills.swift; sourceTree = "<group>"; };
+		4A1A6FDA277A0182003DDFD6 /* TripDetailBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailBottomSheet.swift; sourceTree = "<group>"; };
+		4A1A6FDB277A0182003DDFD6 /* TripDetailBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailBottomSheet.xib; sourceTree = "<group>"; };
+		4A2B62912778944A00C24CF0 /* JHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHNavigationController.swift; sourceTree = "<group>"; };
+		4A5541D0276E0F800084D8F9 /* pulsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pulsViewController.swift; sourceTree = "<group>"; };
+		4A5541D1276E0F800084D8F9 /* pulsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pulsViewController.xib; sourceTree = "<group>"; };
+		4A55454D2774C1C10081BC4F /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		4A611E092778CF4600EBCC20 /* TripHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistory.swift; sourceTree = "<group>"; };
+		4A611E0A2778CF4600EBCC20 /* TripHistory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripHistory.xib; sourceTree = "<group>"; };
+		4A611E0E2778DB3B00EBCC20 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4A6B306F276C88480072F8C5 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		4A6B3070276C88480072F8C5 /* MainScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
+		4AAD4A48277987CB0086A58A /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		4AAD4A49277987CB0086A58A /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		4ADB801E276C4B2F003AD335 /* MyTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADB8021276C4B2F003AD335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADB8023276C4B2F003AD335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4ADB8025276C4B2F003AD335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ADB8028276C4B2F003AD335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ADB802B276C4B2F003AD335 /* MyTaxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTaxi.xcdatamodel; sourceTree = "<group>"; };
 		4ADB802D276C4B35003AD335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +91,16 @@
 		4ADB8041276C4B36003AD335 /* MyTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADB8045276C4B36003AD335 /* MyTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaxiUITests.swift; sourceTree = "<group>"; };
 		4ADB8047276C4B36003AD335 /* MyTaxiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaxiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ADB8055276C518A003AD335 /* TaxiAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiAppViewController.swift; sourceTree = "<group>"; };
+		4ADB8056276C518A003AD335 /* TaxiAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaxiAppViewController.xib; sourceTree = "<group>"; };
+		4ADB8059276C6B8A003AD335 /* GoogleMapsViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewer.swift; sourceTree = "<group>"; };
+		4ADB805A276C6B8A003AD335 /* GoogleMapsViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleMapsViewer.xib; sourceTree = "<group>"; };
+		546B42603DA92B92AF49B936 /* Pods-MyTaxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxi.release.xcconfig"; path = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi.release.xcconfig"; sourceTree = "<group>"; };
+		71AABD8985A0A77BD97E0085 /* Pods-MyTaxiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxiTests.debug.xcconfig"; path = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0694E6F1637F91B01A2FB77 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxi-MyTaxiUITests.release.xcconfig"; path = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E89EF1115F3C30479B2DE7 /* Pods-MyTaxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxiTests.release.xcconfig"; path = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E35D65AE05590213CBB18FFC /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxi-MyTaxiUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF5E8D796EF8D8ADCE9D48D /* Pods-MyTaxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTaxi.debug.xcconfig"; path = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBB58AD3C9F47FFCDFD01F0 /* Pods_MyTaxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCF3B7813F2709680A22F17 /* Pods_MyTaxiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9BA9B3B4E0577B36FA8CED /* Pods_MyTaxi_MyTaxiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1A06AF276F736C00AA4D5F /* utills */ = {
+			isa = PBXGroup;
+			children = (
+				4A1A06B0276F738100AA4D5F /* Utills.swift */,
+			);
+			path = utills;
+			sourceTree = "<group>";
+		};
+		4A55454B2774C17F0081BC4F /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				4A6B306F276C88480072F8C5 /* MainScreen.swift */,
+				4A6B3070276C88480072F8C5 /* MainScreen.xib */,
+				4A55454D2774C1C10081BC4F /* MenuScreen.swift */,
+				4A611E092778CF4600EBCC20 /* TripHistory.swift */,
+				4A611E0A2778CF4600EBCC20 /* TripHistory.xib */,
+				4A0B0FA02779AD8E00460380 /* TripDetail.swift */,
+				4A0B0FA12779AD8E00460380 /* TripDetail.xib */,
+				4A1A6FDA277A0182003DDFD6 /* TripDetailBottomSheet.swift */,
+				4A1A6FDB277A0182003DDFD6 /* TripDetailBottomSheet.xib */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		4A611E0D2778DA1500EBCC20 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4A611E0E2778DB3B00EBCC20 /* Data.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4A611E102778E0DB00EBCC20 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD4A48277987CB0086A58A /* DataTableViewCell.swift */,
+				4AAD4A49277987CB0086A58A /* DataTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		4ADB8015276C4B2F003AD335 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +179,8 @@
 				4ADB803A276C4B36003AD335 /* MyTaxiTests */,
 				4ADB8044276C4B36003AD335 /* MyTaxiUITests */,
 				4ADB801F276C4B2F003AD335 /* Products */,
+				99B7226089ABAD25ABBBA068 /* Pods */,
+				A282693D299AD4566212B5F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +197,22 @@
 		4ADB8020276C4B2F003AD335 /* MyTaxi */ = {
 			isa = PBXGroup;
 			children = (
+				4A611E102778E0DB00EBCC20 /* cell */,
+				4A611E0D2778DA1500EBCC20 /* model */,
+				4A55454B2774C17F0081BC4F /* screens */,
+				4A1A06AF276F736C00AA4D5F /* utills */,
+				4ADB8054276C4B41003AD335 /* apputils */,
 				4ADB8021276C4B2F003AD335 /* AppDelegate.swift */,
 				4ADB8023276C4B2F003AD335 /* SceneDelegate.swift */,
-				4ADB8025276C4B2F003AD335 /* ViewController.swift */,
-				4ADB8027276C4B2F003AD335 /* Main.storyboard */,
-				4ADB802D276C4B35003AD335 /* Assets.xcassets */,
-				4ADB802F276C4B35003AD335 /* LaunchScreen.storyboard */,
 				4ADB8032276C4B35003AD335 /* Info.plist */,
 				4ADB802A276C4B2F003AD335 /* MyTaxi.xcdatamodeld */,
+				4ADB8055276C518A003AD335 /* TaxiAppViewController.swift */,
+				4ADB8056276C518A003AD335 /* TaxiAppViewController.xib */,
+				4ADB8059276C6B8A003AD335 /* GoogleMapsViewer.swift */,
+				4ADB805A276C6B8A003AD335 /* GoogleMapsViewer.xib */,
+				4A5541D0276E0F800084D8F9 /* pulsViewController.swift */,
+				4A5541D1276E0F800084D8F9 /* pulsViewController.xib */,
+				4A2B62912778944A00C24CF0 /* JHNavigationController.swift */,
 			);
 			path = MyTaxi;
 			sourceTree = "<group>";
@@ -130,6 +234,39 @@
 			path = MyTaxiUITests;
 			sourceTree = "<group>";
 		};
+		4ADB8054276C4B41003AD335 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				4ADB8027276C4B2F003AD335 /* Main.storyboard */,
+				4ADB802D276C4B35003AD335 /* Assets.xcassets */,
+				4ADB802F276C4B35003AD335 /* LaunchScreen.storyboard */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		99B7226089ABAD25ABBBA068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5E8D796EF8D8ADCE9D48D /* Pods-MyTaxi.debug.xcconfig */,
+				546B42603DA92B92AF49B936 /* Pods-MyTaxi.release.xcconfig */,
+				E35D65AE05590213CBB18FFC /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */,
+				C0694E6F1637F91B01A2FB77 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */,
+				71AABD8985A0A77BD97E0085 /* Pods-MyTaxiTests.debug.xcconfig */,
+				D7E89EF1115F3C30479B2DE7 /* Pods-MyTaxiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A282693D299AD4566212B5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B8833B5D20BC1696A47AF1E /* Pods_MyTaxi.framework */,
+				369AA36205AF3E7E33EEAA3F /* Pods_MyTaxi_MyTaxiUITests.framework */,
+				41500EB5D4835C361BBAE996 /* Pods_MyTaxiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADB804B276C4B36003AD335 /* Build configuration list for PBXNativeTarget "MyTaxi" */;
 			buildPhases = (
+				04D7F70A03DC1C688C7E2C41 /* [CP] Check Pods Manifest.lock */,
 				4ADB801A276C4B2F003AD335 /* Sources */,
 				4ADB801B276C4B2F003AD335 /* Frameworks */,
 				4ADB801C276C4B2F003AD335 /* Resources */,
+				F562AEED107A72EE0411E3A1 /* [CP] Copy Pods Resources */,
+				2B1AB9670001DF48152B5DCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADB804E276C4B36003AD335 /* Build configuration list for PBXNativeTarget "MyTaxiTests" */;
 			buildPhases = (
+				86664A8766E0FC3711B4C576 /* [CP] Check Pods Manifest.lock */,
 				4ADB8033276C4B36003AD335 /* Sources */,
 				4ADB8034276C4B36003AD335 /* Frameworks */,
 				4ADB8035276C4B36003AD335 /* Resources */,
@@ -172,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADB8051276C4B36003AD335 /* Build configuration list for PBXNativeTarget "MyTaxiUITests" */;
 			buildPhases = (
+				53CBCF39FB5FA52DAD4AB92A /* [CP] Check Pods Manifest.lock */,
 				4ADB803D276C4B36003AD335 /* Sources */,
 				4ADB803E276C4B36003AD335 /* Frameworks */,
 				4ADB803F276C4B36003AD335 /* Resources */,
+				62908DE845B482360F88460B /* [CP] Copy Pods Resources */,
+				21F822D7FFCB8B5653EA67BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +378,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADB8058276C518A003AD335 /* TaxiAppViewController.xib in Resources */,
+				4AAD4A4B277987CB0086A58A /* DataTableViewCell.xib in Resources */,
+				4A1A6FDD277A0183003DDFD6 /* TripDetailBottomSheet.xib in Resources */,
+				4A611E0C2778CF4600EBCC20 /* TripHistory.xib in Resources */,
+				4A0B0FA32779AD8E00460380 /* TripDetail.xib in Resources */,
 				4ADB8031276C4B35003AD335 /* LaunchScreen.storyboard in Resources */,
+				4A6B3072276C88480072F8C5 /* MainScreen.xib in Resources */,
 				4ADB802E276C4B35003AD335 /* Assets.xcassets in Resources */,
 				4ADB8029276C4B2F003AD335 /* Main.storyboard in Resources */,
+				4ADB805C276C6B8A003AD335 /* GoogleMapsViewer.xib in Resources */,
+				4A5541D3276E0F800084D8F9 /* pulsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +408,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D7F70A03DC1C688C7E2C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTaxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F822D7FFCB8B5653EA67BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1AB9670001DF48152B5DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CBCF39FB5FA52DAD4AB92A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTaxi-MyTaxiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62908DE845B482360F88460B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86664A8766E0FC3711B4C576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTaxiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F562AEED107A72EE0411E3A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTaxi/Pods-MyTaxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ADB801A276C4B2F003AD335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADB8026276C4B2F003AD335 /* ViewController.swift in Sources */,
+				4A2B62922778944B00C24CF0 /* JHNavigationController.swift in Sources */,
+				4A55454E2774C1C10081BC4F /* MenuScreen.swift in Sources */,
+				4A5541D2276E0F800084D8F9 /* pulsViewController.swift in Sources */,
+				4A6B3071276C88480072F8C5 /* MainScreen.swift in Sources */,
+				4ADB8057276C518A003AD335 /* TaxiAppViewController.swift in Sources */,
 				4ADB8022276C4B2F003AD335 /* AppDelegate.swift in Sources */,
+				4A1A6FDC277A0182003DDFD6 /* TripDetailBottomSheet.swift in Sources */,
+				4A1A06B1276F738100AA4D5F /* Utills.swift in Sources */,
+				4A611E0F2778DB3B00EBCC20 /* Data.swift in Sources */,
 				4ADB8024276C4B2F003AD335 /* SceneDelegate.swift in Sources */,
+				4A0B0FA22779AD8E00460380 /* TripDetail.swift in Sources */,
+				4A611E0B2778CF4600EBCC20 /* TripHistory.swift in Sources */,
 				4ADB802C276C4B2F003AD335 /* MyTaxi.xcdatamodeld in Sources */,
+				4ADB805B276C6B8A003AD335 /* GoogleMapsViewer.swift in Sources */,
+				4AAD4A4A277987CB0086A58A /* DataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +738,7 @@
 		};
 		4ADB804C276C4B36003AD335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF5E8D796EF8D8ADCE9D48D /* Pods-MyTaxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,9 +746,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTaxi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application wants to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,6 +769,7 @@
 		};
 		4ADB804D276C4B36003AD335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546B42603DA92B92AF49B936 /* Pods-MyTaxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,9 +777,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTaxi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application wants to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +800,7 @@
 		};
 		4ADB804F276C4B36003AD335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AABD8985A0A77BD97E0085 /* Pods-MyTaxiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +825,7 @@
 		};
 		4ADB8050276C4B36003AD335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E89EF1115F3C30479B2DE7 /* Pods-MyTaxiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +850,7 @@
 		};
 		4ADB8052276C4B36003AD335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35D65AE05590213CBB18FFC /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +873,7 @@
 		};
 		4ADB8053276C4B36003AD335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0694E6F1637F91B01A2FB77 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

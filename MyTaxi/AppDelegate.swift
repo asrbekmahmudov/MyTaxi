@@ -1,12 +1,7 @@
-//
-//  AppDelegate.swift
-//  MyTaxi
-//
-//  Created by Mahmudov Asrbek Ulug'bek o'g'li on 17/12/21.
-//
 
 import UIKit
 import CoreData
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyDIIhStWxOQL8QKzx3Vczr7roTAdSkPVdM")
+        setCommonNavBar()
         return true
     }
 
@@ -75,6 +72,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    func setCommonNavBar() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        appearance.backgroundColor = .red
+        //UINavigationBar.appearance().tintColor = UIColor.black
+        UINavigationBar.appearance().isHidden = true
+        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
     }
 
 }

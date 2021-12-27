@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TripHistory" customModule="MyTaxi" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="ZIv-fR-eAp" id="nd7-r3-Bzi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIv-fR-eAp">
+                    <rect key="frame" x="0.0" y="94" width="414" height="802"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xok-MC-q5z">
+                    <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мои поездки" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2e-uA-k8S">
+                            <rect key="frame" x="145" y="13" width="124" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dT-em-k5W">
+                            <rect key="frame" x="10" y="9.5" width="47" height="31"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain">
+                                <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="large"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="semibold"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="backButton:" destination="-1" eventType="touchUpInside" id="FdD-Zb-dYM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="I2e-uA-k8S" firstAttribute="centerX" secondItem="xok-MC-q5z" secondAttribute="centerX" id="fY6-QS-n0V"/>
+                        <constraint firstAttribute="height" constant="50" id="jRe-qv-sBu"/>
+                        <constraint firstItem="3dT-em-k5W" firstAttribute="centerY" secondItem="xok-MC-q5z" secondAttribute="centerY" id="qPM-r3-3Dz"/>
+                        <constraint firstItem="3dT-em-k5W" firstAttribute="leading" secondItem="xok-MC-q5z" secondAttribute="leading" constant="10" id="vp0-oU-Ogg"/>
+                        <constraint firstItem="I2e-uA-k8S" firstAttribute="centerY" secondItem="xok-MC-q5z" secondAttribute="centerY" id="ycl-NA-T4h"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="xok-MC-q5z" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2Ax-Wo-eLT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xok-MC-q5z" secondAttribute="trailing" id="K88-RC-3nr"/>
+                <constraint firstItem="ZIv-fR-eAp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Pxd-6A-ERc"/>
+                <constraint firstItem="xok-MC-q5z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="RLe-eX-6qv"/>
+                <constraint firstAttribute="bottom" secondItem="ZIv-fR-eAp" secondAttribute="bottom" id="sYk-Ok-IvP"/>
+                <constraint firstItem="ZIv-fR-eAp" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="tmU-Ci-6Ke"/>
+                <constraint firstItem="ZIv-fR-eAp" firstAttribute="top" secondItem="xok-MC-q5z" secondAttribute="bottom" id="u0t-OS-PfC"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="82.366071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
