@@ -13,7 +13,6 @@
 		4A1A06B1276F738100AA4D5F /* Utills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A06B0276F738100AA4D5F /* Utills.swift */; };
 		4A1A6FDC277A0182003DDFD6 /* TripDetailBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A6FDA277A0182003DDFD6 /* TripDetailBottomSheet.swift */; };
 		4A1A6FDD277A0183003DDFD6 /* TripDetailBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A6FDB277A0182003DDFD6 /* TripDetailBottomSheet.xib */; };
-		4A55454E2774C1C10081BC4F /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55454D2774C1C10081BC4F /* MenuScreen.swift */; };
 		4A611E0B2778CF4600EBCC20 /* TripHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A611E092778CF4600EBCC20 /* TripHistory.swift */; };
 		4A611E0C2778CF4600EBCC20 /* TripHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A611E0A2778CF4600EBCC20 /* TripHistory.xib */; };
 		4A611E0F2778DB3B00EBCC20 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A611E0E2778DB3B00EBCC20 /* Data.swift */; };
@@ -60,7 +59,6 @@
 		4A1A06B0276F738100AA4D5F /* Utills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utills.swift; sourceTree = "<group>"; };
 		4A1A6FDA277A0182003DDFD6 /* TripDetailBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailBottomSheet.swift; sourceTree = "<group>"; };
 		4A1A6FDB277A0182003DDFD6 /* TripDetailBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailBottomSheet.xib; sourceTree = "<group>"; };
-		4A55454D2774C1C10081BC4F /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
 		4A611E092778CF4600EBCC20 /* TripHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistory.swift; sourceTree = "<group>"; };
 		4A611E0A2778CF4600EBCC20 /* TripHistory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripHistory.xib; sourceTree = "<group>"; };
 		4A611E0E2778DB3B00EBCC20 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			children = (
 				4A6B306F276C88480072F8C5 /* MainScreen.swift */,
 				4A6B3070276C88480072F8C5 /* MainScreen.xib */,
-				4A55454D2774C1C10081BC4F /* MenuScreen.swift */,
 				4A611E092778CF4600EBCC20 /* TripHistory.swift */,
 				4A611E0A2778CF4600EBCC20 /* TripHistory.xib */,
 				4A0B0FA02779AD8E00460380 /* TripDetail.swift */,
@@ -526,7 +523,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A55454E2774C1C10081BC4F /* MenuScreen.swift in Sources */,
 				4A6B3071276C88480072F8C5 /* MainScreen.swift in Sources */,
 				4ADB8022276C4B2F003AD335 /* AppDelegate.swift in Sources */,
 				4A1A6FDC277A0182003DDFD6 /* TripDetailBottomSheet.swift in Sources */,

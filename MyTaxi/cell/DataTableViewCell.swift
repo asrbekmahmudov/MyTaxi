@@ -22,20 +22,7 @@ class DataTableViewCell: UITableViewCell {
         super.awakeFromNib()
         setup()
     }
-    
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        self.overAll.backgroundColor = UIColor.gray
-//    }
-//
-//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        self.overAll.backgroundColor = UIColor.red
-//    }
-//
-//    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        self.overAll.backgroundColor = UIColor.white
-//    }
-//
-    
+
     func setup() {
         setBottomView()
         setFrom()

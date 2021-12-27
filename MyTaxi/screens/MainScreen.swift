@@ -11,7 +11,6 @@ import Pulsator
 
 class MainScreen: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
     
-   // @IBOutlet var label: UILabel!
     @IBOutlet var mapView: UIView!
     @IBOutlet var marker: UIImageView!
     @IBOutlet var addressView: UIView!
@@ -41,8 +40,6 @@ class MainScreen: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
         super.viewDidLoad()
         setUp()
     }
-    
-    
     
     // MARK: - Set Up View
     
@@ -190,19 +187,7 @@ class MainScreen: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
         phone.text = "+998121234567"
         phone.font = .systemFont(ofSize: 14)
         phone.textColor = .gray
-        
-        // Stack
-//        var VStack = UIStackView()
-//        VStack.frame.origin.x = 0
-//        VStack.frame.origin.y = 0
-//        VStack.frame.size.width = 20
-//        VStack.axis = .vertical
-//        VStack.distribution  = UIStackView.Distribution.equalSpacing
-//        VStack.spacing = 10
-//
-//        VStack.addArrangedSubview(name)
-//        VStack.addArrangedSubview(phone)
-//
+
         background.addSubview(name)
         background.addSubview(phone)
         
@@ -240,7 +225,6 @@ class MainScreen: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
     
     // MARK: - Action
     @objc func menu(_ : UIButton) {
-        print("ooo")
         call()
         isMenuOpened = false
         changeAfterClosedMenu()
