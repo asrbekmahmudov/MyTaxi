@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0097756120818B1D33C170CBA58835B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		09664D004BA06DA62EE1207B2E4EDD39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		2F83909F86D6E2D3C44D76F02A299040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		4AAFB13F8B98D13D0A9349798D5C18DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		4C62DCECB0352D1960FCC648873E791D /* Pods-MyTaxiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 470BDD016EFB466380436E56BE5E6CB5 /* Pods-MyTaxiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B7F109AC79E2AB03B321F2FAB78479 /* Pods-MyTaxi-MyTaxiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F7D2D49624B7E850827F0B14A03B00 /* Pods-MyTaxi-MyTaxiUITests-dummy.m */; };
+		780C499F5A7D6E8937308D18D0365658 /* Pods-MyTaxi-MyTaxiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA500E289CC0436B8153667AEE9867C /* Pods-MyTaxi-MyTaxiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86AA433D4766638A59AF4EFAF2C1E633 /* Pods-MyTaxi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 345A5894E59068DD3531B59C50FEF3EE /* Pods-MyTaxi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E47E6D71E59E7701BA6927099BFF831 /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F81EE00F7D5BF480B50931A54133C /* Pulsator.swift */; };
+		A3B830738FB7AB853D7C532FD3DABFF9 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912CA546D3EBE33153FDF071C9BA30D3 /* Pulsator-dummy.m */; };
+		B4B783EB06541AC5275A2EB07E6B98E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		BA5F83989869246AAD5CEB46B9CAA090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		C00D2BA2119B7ED44E29A07EB142616A /* Pods-MyTaxi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0F391796C288F86B3349431F31DA /* Pods-MyTaxi-dummy.m */; };
+		C518BFB8806EEDBACE7E27D0DC8FEAC7 /* Pods-MyTaxiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C8596C19AA2E61D3F476BEA00FD65 /* Pods-MyTaxiTests-dummy.m */; };
+		F3E67705560D2D028609934E1E7C7794 /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8479C07CC1705B712B6961380E41D1A8 /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2E8F586B745E9C33799204C642DC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
+			remoteInfo = Pulsator;
+		};
+		1D709518151FB00BA874FF66C7B4AF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB119AA73E29CF28B8853670A29C7A86;
+			remoteInfo = "Pods-MyTaxi";
+		};
+		60D752010E249AAA84F44E2690521DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
+			remoteInfo = Pulsator;
+		};
+		91AF793440820A6CAA7EDC0793DD8EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		C2F1C40E1CBA470B22AE5F24DF5D0AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003838EE2C502649F1CC06FECBE21567 /* Pods-MyTaxi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxi-Info.plist"; sourceTree = "<group>"; };
+		01530279467A7BFD60B10B7B2C41C198 /* Pods-MyTaxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxi.debug.xcconfig"; sourceTree = "<group>"; };
+		0F340B1E90C74B6BF5002BAE05FABE29 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxi-MyTaxiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14F7D2D49624B7E850827F0B14A03B00 /* Pods-MyTaxi-MyTaxiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTaxi-MyTaxiUITests-dummy.m"; sourceTree = "<group>"; };
+		18C8FF268FE07599AADA8FFDF957B3AD /* Pods-MyTaxi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyTaxi"; path = Pods_MyTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE4DF49E007599C2721BBE487AE45F5 /* Pulsator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.release.xcconfig; sourceTree = "<group>"; };
+		1EB21BEAE1FAADF12BD2D2F033BD3418 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2344D36641003B6BA8E3A93DBD74BCC6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		2403D4B09143171EBF3029D62659C305 /* Pods-MyTaxi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTaxi.modulemap"; sourceTree = "<group>"; };
+		26254E08CB7B7736A9B04EAD2903CBD4 /* Pods-MyTaxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		285E4561664BF20413AE8504E50451A3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		2E1ACB4CF1732256AD13B555F036D0F0 /* Pods-MyTaxi-MyTaxiUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTaxi-MyTaxiUITests-resources.sh"; sourceTree = "<group>"; };
+		345A5894E59068DD3531B59C50FEF3EE /* Pods-MyTaxi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTaxi-umbrella.h"; sourceTree = "<group>"; };
+		374FE174F2290E45005D1B88C245ECFF /* Pods-MyTaxi-MyTaxiUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyTaxi-MyTaxiUITests"; path = Pods_MyTaxi_MyTaxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4761751EAD3CF801B0B408AEA3B211 /* Pods-MyTaxiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTaxiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FA279453C30937522CC1A1E360743A3 /* Pods-MyTaxi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTaxi-frameworks.sh"; sourceTree = "<group>"; };
+		42C96CC04F585680DBBAFDCE29312A7C /* Pods-MyTaxiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTaxiTests.modulemap"; sourceTree = "<group>"; };
+		453D4CCCA021A950F78AF77C50D34028 /* Pods-MyTaxi-MyTaxiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxi-MyTaxiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		470BDD016EFB466380436E56BE5E6CB5 /* Pods-MyTaxiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTaxiTests-umbrella.h"; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53EA3DE3E8D7D1AE450DA7E5D489F730 /* Pods-MyTaxi-MyTaxiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTaxi-MyTaxiUITests.modulemap"; sourceTree = "<group>"; };
+		5BE86D1FDF3976CC7D99DBCB49AC6996 /* Pods-MyTaxi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTaxi-resources.sh"; sourceTree = "<group>"; };
+		6032F062E4746A4DE19760D1AD99FA1C /* Pods-MyTaxiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6211A71EC82A93035D31FB825ED3006C /* Pods-MyTaxi-MyTaxiUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxi-MyTaxiUITests-Info.plist"; sourceTree = "<group>"; };
+		6238D35A344FD71BD75C5ACB8575D53F /* Pulsator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.debug.xcconfig; sourceTree = "<group>"; };
+		73093F98CFAB5DEF52FF0E5F94F64B2E /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		7BA500E289CC0436B8153667AEE9867C /* Pods-MyTaxi-MyTaxiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTaxi-MyTaxiUITests-umbrella.h"; sourceTree = "<group>"; };
+		7C9C8596C19AA2E61D3F476BEA00FD65 /* Pods-MyTaxiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTaxiTests-dummy.m"; sourceTree = "<group>"; };
+		80A130556E05485B2D1943872AAE8DBF /* Pods-MyTaxiTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxiTests-Info.plist"; sourceTree = "<group>"; };
+		8194E374569783B6F86EC3664E6BABA0 /* Pods-MyTaxiTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyTaxiTests"; path = Pods_MyTaxiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8479C07CC1705B712B6961380E41D1A8 /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		853D0E24F9494F7C60CB25304DE97153 /* Pods-MyTaxi-MyTaxiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTaxi-MyTaxiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88D04A5AEE10CCE29885846CD1F96D57 /* Pods-MyTaxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxi.release.xcconfig"; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		912CA546D3EBE33153FDF071C9BA30D3 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A47D5A9BDFDCD310971FF5E5FE5C0599 /* Pods-MyTaxi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTaxi-acknowledgements.plist"; sourceTree = "<group>"; };
+		A580A4490224FB1F3E08D652972BAD3A /* Pods-MyTaxi-MyTaxiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTaxi-MyTaxiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A73B0F391796C288F86B3349431F31DA /* Pods-MyTaxi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTaxi-dummy.m"; sourceTree = "<group>"; };
+		ABF7030A3548B4F81E1CAB7189ABAE34 /* Pods-MyTaxi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTaxi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF6F81EE00F7D5BF480B50931A54133C /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
+		B0322535D1617BB59D1AB9CA1BF99727 /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
+		BAF9CD898A880FEA3DBEE1AF4916AEA0 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		C89F11EC119F506989F4219DD50096C5 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		E2050A06F57F16F40DC9962268A9DA2F /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxi-MyTaxiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1FB0D7D01D59F80965717ED15EAA71 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		FC7B155102469729D6ABD3476955CCE0 /* Pods-MyTaxiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTaxiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA824088E731299A9792C50880AA001 /* Pulsator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pulsator-Info.plist"; sourceTree = "<group>"; };
+		FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulsator; path = Pulsator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BE121045EC75A1427D8206E1DA813E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B783EB06541AC5275A2EB07E6B98E6 /* Foundation.framework in Frameworks */,
+				0097756120818B1D33C170CBA58835B1 /* QuartzCore.framework in Frameworks */,
+				09664D004BA06DA62EE1207B2E4EDD39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4317C42934B090407FCF3932A1CF7315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5F83989869246AAD5CEB46B9CAA090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9456F99951958099BEC4D46FAA4F100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAFB13F8B98D13D0A9349798D5C18DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C092A1107760753AA51A808506EE7477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F83909F86D6E2D3C44D76F02A299040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009621EC086BD12B92A7991B755E2145 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A25BD73B43F7E700E7BCED41DF0168FC /* Frameworks */,
+				3BDC809F0589C437A14606FE853F5C57 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12DB7BC670475BD21D9767BB6177FFB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FB0D7D01D59F80965717ED15EAA71 /* Pulsator.modulemap */,
+				912CA546D3EBE33153FDF071C9BA30D3 /* Pulsator-dummy.m */,
+				FEA824088E731299A9792C50880AA001 /* Pulsator-Info.plist */,
+				B0322535D1617BB59D1AB9CA1BF99727 /* Pulsator-prefix.pch */,
+				8479C07CC1705B712B6961380E41D1A8 /* Pulsator-umbrella.h */,
+				6238D35A344FD71BD75C5ACB8575D53F /* Pulsator.debug.xcconfig */,
+				1AE4DF49E007599C2721BBE487AE45F5 /* Pulsator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsator";
+			sourceTree = "<group>";
+		};
+		1A50FE98B26945171E3FC026D612C389 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4790A1CD0791860CA541667EF5F15384 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3BDC809F0589C437A14606FE853F5C57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				285E4561664BF20413AE8504E50451A3 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4790A1CD0791860CA541667EF5F15384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2344D36641003B6BA8E3A93DBD74BCC6 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A829BF02E638C9CFBD3B8DB3C15031C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				859CEC4C08DEAF3515DAFDB2DD7423C3 /* GoogleMaps */,
+				572F9520A039FE039245964A0FBE2556 /* Pulsator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		572F9520A039FE039245964A0FBE2556 /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				AF6F81EE00F7D5BF480B50931A54133C /* Pulsator.swift */,
+				12DB7BC670475BD21D9767BB6177FFB3 /* Support Files */,
+			);
+			name = Pulsator;
+			path = Pulsator;
+			sourceTree = "<group>";
+		};
+		6263B83E87C6747E364AE9BF8FDE884F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FB0B9383800F6675CF6374741A4BFA /* Pods-MyTaxi */,
+				6C7C8324F85A5BAFFB1A4345FC8E28FB /* Pods-MyTaxi-MyTaxiUITests */,
+				96710401A947A5BDBDC3FF12A90D1C31 /* Pods-MyTaxiTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63FB0B9383800F6675CF6374741A4BFA /* Pods-MyTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				2403D4B09143171EBF3029D62659C305 /* Pods-MyTaxi.modulemap */,
+				ABF7030A3548B4F81E1CAB7189ABAE34 /* Pods-MyTaxi-acknowledgements.markdown */,
+				A47D5A9BDFDCD310971FF5E5FE5C0599 /* Pods-MyTaxi-acknowledgements.plist */,
+				A73B0F391796C288F86B3349431F31DA /* Pods-MyTaxi-dummy.m */,
+				3FA279453C30937522CC1A1E360743A3 /* Pods-MyTaxi-frameworks.sh */,
+				003838EE2C502649F1CC06FECBE21567 /* Pods-MyTaxi-Info.plist */,
+				5BE86D1FDF3976CC7D99DBCB49AC6996 /* Pods-MyTaxi-resources.sh */,
+				345A5894E59068DD3531B59C50FEF3EE /* Pods-MyTaxi-umbrella.h */,
+				01530279467A7BFD60B10B7B2C41C198 /* Pods-MyTaxi.debug.xcconfig */,
+				88D04A5AEE10CCE29885846CD1F96D57 /* Pods-MyTaxi.release.xcconfig */,
+			);
+			name = "Pods-MyTaxi";
+			path = "Target Support Files/Pods-MyTaxi";
+			sourceTree = "<group>";
+		};
+		6C7C8324F85A5BAFFB1A4345FC8E28FB /* Pods-MyTaxi-MyTaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53EA3DE3E8D7D1AE450DA7E5D489F730 /* Pods-MyTaxi-MyTaxiUITests.modulemap */,
+				853D0E24F9494F7C60CB25304DE97153 /* Pods-MyTaxi-MyTaxiUITests-acknowledgements.markdown */,
+				453D4CCCA021A950F78AF77C50D34028 /* Pods-MyTaxi-MyTaxiUITests-acknowledgements.plist */,
+				14F7D2D49624B7E850827F0B14A03B00 /* Pods-MyTaxi-MyTaxiUITests-dummy.m */,
+				A580A4490224FB1F3E08D652972BAD3A /* Pods-MyTaxi-MyTaxiUITests-frameworks.sh */,
+				6211A71EC82A93035D31FB825ED3006C /* Pods-MyTaxi-MyTaxiUITests-Info.plist */,
+				2E1ACB4CF1732256AD13B555F036D0F0 /* Pods-MyTaxi-MyTaxiUITests-resources.sh */,
+				7BA500E289CC0436B8153667AEE9867C /* Pods-MyTaxi-MyTaxiUITests-umbrella.h */,
+				E2050A06F57F16F40DC9962268A9DA2F /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */,
+				0F340B1E90C74B6BF5002BAE05FABE29 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */,
+			);
+			name = "Pods-MyTaxi-MyTaxiUITests";
+			path = "Target Support Files/Pods-MyTaxi-MyTaxiUITests";
+			sourceTree = "<group>";
+		};
+		859CEC4C08DEAF3515DAFDB2DD7423C3 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1A50FE98B26945171E3FC026D612C389 /* Base */,
+				009621EC086BD12B92A7991B755E2145 /* Maps */,
+				F1F5953CA12ACC3F50D396FB73DF8218 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		96710401A947A5BDBDC3FF12A90D1C31 /* Pods-MyTaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				42C96CC04F585680DBBAFDCE29312A7C /* Pods-MyTaxiTests.modulemap */,
+				3C4761751EAD3CF801B0B408AEA3B211 /* Pods-MyTaxiTests-acknowledgements.markdown */,
+				6032F062E4746A4DE19760D1AD99FA1C /* Pods-MyTaxiTests-acknowledgements.plist */,
+				7C9C8596C19AA2E61D3F476BEA00FD65 /* Pods-MyTaxiTests-dummy.m */,
+				80A130556E05485B2D1943872AAE8DBF /* Pods-MyTaxiTests-Info.plist */,
+				470BDD016EFB466380436E56BE5E6CB5 /* Pods-MyTaxiTests-umbrella.h */,
+				FC7B155102469729D6ABD3476955CCE0 /* Pods-MyTaxiTests.debug.xcconfig */,
+				26254E08CB7B7736A9B04EAD2903CBD4 /* Pods-MyTaxiTests.release.xcconfig */,
+			);
+			name = "Pods-MyTaxiTests";
+			path = "Target Support Files/Pods-MyTaxiTests";
+			sourceTree = "<group>";
+		};
+		97ECD4A15AF3CF5D4FCF2FD250AF2F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C8FF268FE07599AADA8FFDF957B3AD /* Pods-MyTaxi */,
+				374FE174F2290E45005D1B88C245ECFF /* Pods-MyTaxi-MyTaxiUITests */,
+				8194E374569783B6F86EC3664E6BABA0 /* Pods-MyTaxiTests */,
+				FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A25BD73B43F7E700E7BCED41DF0168FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EB21BEAE1FAADF12BD2D2F033BD3418 /* GoogleMaps.framework */,
+				C89F11EC119F506989F4219DD50096C5 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				4A829BF02E638C9CFBD3B8DB3C15031C /* Pods */,
+				97ECD4A15AF3CF5D4FCF2FD250AF2F35 /* Products */,
+				6263B83E87C6747E364AE9BF8FDE884F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1F5953CA12ACC3F50D396FB73DF8218 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73093F98CFAB5DEF52FF0E5F94F64B2E /* GoogleMaps.debug.xcconfig */,
+				BAF9CD898A880FEA3DBEE1AF4916AEA0 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CDF4B559D96E8EF27862C3A773C1219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780C499F5A7D6E8937308D18D0365658 /* Pods-MyTaxi-MyTaxiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B0FC85CC24CE41CA3009661CCD2BDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C62DCECB0352D1960FCC648873E791D /* Pods-MyTaxiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E440963ECB5141D1956F373DAD659973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E67705560D2D028609934E1E7C7794 /* Pulsator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DF7B31C8330715E9380E5DD95B59AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA433D4766638A59AF4EFAF2C1E633 /* Pods-MyTaxi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EF86A699CAB4BA1FF201ACBBAF7E417 /* Pods-MyTaxi-MyTaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502DC008AE39DA2B6113107CE17E7D94 /* Build configuration list for PBXNativeTarget "Pods-MyTaxi-MyTaxiUITests" */;
+			buildPhases = (
+				3CDF4B559D96E8EF27862C3A773C1219 /* Headers */,
+				0C7503FFDADC3E7F8B3329617D8255DA /* Sources */,
+				9456F99951958099BEC4D46FAA4F100D /* Frameworks */,
+				18F3EAF057E45BAE43A771141056B932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6D983547DDBB955EA7735D10EA5800 /* PBXTargetDependency */,
+				E8D868A243339525C77DBC0028099B20 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTaxi-MyTaxiUITests";
+			productName = Pods_MyTaxi_MyTaxiUITests;
+			productReference = 374FE174F2290E45005D1B88C245ECFF /* Pods-MyTaxi-MyTaxiUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC84B9FCB12AC9D960677CA62EF7B875 /* Build configuration list for PBXNativeTarget "Pulsator" */;
+			buildPhases = (
+				E440963ECB5141D1956F373DAD659973 /* Headers */,
+				C15E892E39CFC416B7E7AA29E0DE7B66 /* Sources */,
+				33BE121045EC75A1427D8206E1DA813E /* Frameworks */,
+				72EF400C155462B5DCCC1C17EB53429C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsator;
+			productName = Pulsator;
+			productReference = FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB119AA73E29CF28B8853670A29C7A86 /* Pods-MyTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05760804968F85DDA7D0DFE929291815 /* Build configuration list for PBXNativeTarget "Pods-MyTaxi" */;
+			buildPhases = (
+				F4DF7B31C8330715E9380E5DD95B59AC /* Headers */,
+				A93598091CA73FF9607548289371480D /* Sources */,
+				C092A1107760753AA51A808506EE7477 /* Frameworks */,
+				9A68F38095B22B936DA6C839CBBF83A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5367581B4D0FA350D188946DD71D37D9 /* PBXTargetDependency */,
+				0DF03DE643A45566F652A4ACFAEC59F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTaxi";
+			productName = Pods_MyTaxi;
+			productReference = 18C8FF268FE07599AADA8FFDF957B3AD /* Pods-MyTaxi */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3719BA1010C59362417BDBCCEFC1883 /* Pods-MyTaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF4C8AE9AA6CFA7E0A7431ACE1CFCD3 /* Build configuration list for PBXNativeTarget "Pods-MyTaxiTests" */;
+			buildPhases = (
+				A8B0FC85CC24CE41CA3009661CCD2BDC /* Headers */,
+				33658F107AB763710EC237F37454D04B /* Sources */,
+				4317C42934B090407FCF3932A1CF7315 /* Frameworks */,
+				CEEF1215F96E7E8E4CCF88AE99056CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D62BAA8CE9F0BD42BA28443D2F1DFA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTaxiTests";
+			productName = Pods_MyTaxiTests;
+			productReference = 8194E374569783B6F86EC3664E6BABA0 /* Pods-MyTaxiTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 97ECD4A15AF3CF5D4FCF2FD250AF2F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				EB119AA73E29CF28B8853670A29C7A86 /* Pods-MyTaxi */,
+				6EF86A699CAB4BA1FF201ACBBAF7E417 /* Pods-MyTaxi-MyTaxiUITests */,
+				F3719BA1010C59362417BDBCCEFC1883 /* Pods-MyTaxiTests */,
+				E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F3EAF057E45BAE43A771141056B932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EF400C155462B5DCCC1C17EB53429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68F38095B22B936DA6C839CBBF83A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEF1215F96E7E8E4CCF88AE99056CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C7503FFDADC3E7F8B3329617D8255DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7F109AC79E2AB03B321F2FAB78479 /* Pods-MyTaxi-MyTaxiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33658F107AB763710EC237F37454D04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C518BFB8806EEDBACE7E27D0DC8FEAC7 /* Pods-MyTaxiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93598091CA73FF9607548289371480D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D2BA2119B7ED44E29A07EB142616A /* Pods-MyTaxi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15E892E39CFC416B7E7AA29E0DE7B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E47E6D71E59E7701BA6927099BFF831 /* Pulsator.swift in Sources */,
+				A3B830738FB7AB853D7C532FD3DABFF9 /* Pulsator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF03DE643A45566F652A4ACFAEC59F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulsator;
+			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
+			targetProxy = 60D752010E249AAA84F44E2690521DB2 /* PBXContainerItemProxy */;
+		};
+		5367581B4D0FA350D188946DD71D37D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 91AF793440820A6CAA7EDC0793DD8EE5 /* PBXContainerItemProxy */;
+		};
+		8D62BAA8CE9F0BD42BA28443D2F1DFA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyTaxi";
+			target = EB119AA73E29CF28B8853670A29C7A86 /* Pods-MyTaxi */;
+			targetProxy = 1D709518151FB00BA874FF66C7B4AF90 /* PBXContainerItemProxy */;
+		};
+		CC6D983547DDBB955EA7735D10EA5800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = C2F1C40E1CBA470B22AE5F24DF5D0AFE /* PBXContainerItemProxy */;
+		};
+		E8D868A243339525C77DBC0028099B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulsator;
+			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
+			targetProxy = 0E2E8F586B745E9C33799204C642DC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CE41A0F7C9980E37371678246CBA569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7B155102469729D6ABD3476955CCE0 /* Pods-MyTaxiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2112508DBC921F5DF04EA72469A9DA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26254E08CB7B7736A9B04EAD2903CBD4 /* Pods-MyTaxiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxiTests/Pods-MyTaxiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F81067D6F66EC95A68FEE4EFCABB8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01530279467A7BFD60B10B7B2C41C198 /* Pods-MyTaxi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44198806CF84FBD95A13B3970C96993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2050A06F57F16F40DC9962268A9DA2F /* Pods-MyTaxi-MyTaxiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EC442A144372D09FE6409041DC1D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F340B1E90C74B6BF5002BAE05FABE29 /* Pods-MyTaxi-MyTaxiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxi-MyTaxiUITests/Pods-MyTaxi-MyTaxiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A26BDB2F2FBA28B1224FE12FE3DD0422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D04A5AEE10CCE29885846CD1F96D57 /* Pods-MyTaxi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTaxi/Pods-MyTaxi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1A7243E479CB63FCEC1CB7255C95419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE4DF49E007599C2721BBE487AE45F5 /* Pulsator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsator/Pulsator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pulsator/Pulsator.modulemap";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB9F138D6BE5B0B420804AA4F837BD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73093F98CFAB5DEF52FF0E5F94F64B2E /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52CE1FEDB85D6D95917C782787E9747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6238D35A344FD71BD75C5ACB8575D53F /* Pulsator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsator/Pulsator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pulsator/Pulsator.modulemap";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAD95AA7CDFAD96FA4035B88B54EA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF9CD898A880FEA3DBEE1AF4916AEA0 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05760804968F85DDA7D0DFE929291815 /* Build configuration list for PBXNativeTarget "Pods-MyTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F81067D6F66EC95A68FEE4EFCABB8F6 /* Debug */,
+				A26BDB2F2FBA28B1224FE12FE3DD0422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9F138D6BE5B0B420804AA4F837BD74 /* Debug */,
+				FAD95AA7CDFAD96FA4035B88B54EA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502DC008AE39DA2B6113107CE17E7D94 /* Build configuration list for PBXNativeTarget "Pods-MyTaxi-MyTaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44198806CF84FBD95A13B3970C96993E /* Debug */,
+				46EC442A144372D09FE6409041DC1D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF4C8AE9AA6CFA7E0A7431ACE1CFCD3 /* Build configuration list for PBXNativeTarget "Pods-MyTaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE41A0F7C9980E37371678246CBA569 /* Debug */,
+				2112508DBC921F5DF04EA72469A9DA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC84B9FCB12AC9D960677CA62EF7B875 /* Build configuration list for PBXNativeTarget "Pulsator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52CE1FEDB85D6D95917C782787E9747 /* Debug */,
+				B1A7243E479CB63FCEC1CB7255C95419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

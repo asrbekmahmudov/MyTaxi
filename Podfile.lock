@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (6.0.1):
+    - GoogleMaps/Maps (= 6.0.1)
+  - GoogleMaps/Base (6.0.1)
+  - GoogleMaps/Maps (6.0.1):
+    - GoogleMaps/Base
+  - Pulsator (0.6.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Pulsator
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - Pulsator
+
+SPEC CHECKSUMS:
+  GoogleMaps: c213fc2334b7374144cede914da779b99be0ab74
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+
+PODFILE CHECKSUM: 779473dec2fadcb4c2ff3010f70eb287f7db4990
+
+COCOAPODS: 1.11.2
